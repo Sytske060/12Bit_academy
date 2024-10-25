@@ -1,0 +1,58 @@
+h4 {
+    color: blue;
+}
+
+#id {
+    color: orange;
+}
+
+.class {
+    color: purple;
+}
+
+li:first-child {
+    color: green;
+}
+
+li:nth-child(2) {
+    color: aqua;
+}
+
+li:last-child {
+    color: brown;
+}
+
+
+
+.Titel_flexbox {
+    position: absolute;
+    left: 700px;
+}
+
+.card1,
+.card2 {
+    background-color: orange;
+    width: 200px; 
+    height: 200px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-top: 50px;
+}

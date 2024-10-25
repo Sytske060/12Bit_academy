@@ -1,0 +1,76 @@
+.Oranje {
+    background-color: orange;
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    text-align: center;
+    padding: 15px;
+}
+
+.Roze {
+    background-color: rgb(255, 192, 241);
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    text-align: center;
+    padding: 15px;
+} 
+
+.Blue {
+    background-color: lightblue;
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    text-align: center;
+    padding: 15px;
+} 
+
+.Yellow {
+    background-color: yellow;
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    text-align: center;
+    padding: 15px;
+} 
+
+.Grijs {
+    background-color: lightgrey;
+    padding: 1px;
+} 
+
+.grijs {
+    background-color: lightgrey;
+    padding: 25px;
+}
+
+.Blue:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.Roze:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.grijs:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.Grijs:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.Oranje:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+.Yellow:hover {
+    background-color: red;
+    cursor: pointer;
+}
+

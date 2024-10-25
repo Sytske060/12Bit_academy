@@ -1,0 +1,44 @@
+h1 {
+    color: green;
+    font-size: xx-large;
+}
+
+h2 {
+    color: darkblue;
+}
+
+li {
+    color: darkblue;
+}
+
+body {
+    background-color: lightcoral;
+}
+
+img {
+    width: 400px;
+    height: 350px;
+}
+
+div {
+    background-color: lightgrey;
+}
+
+span {
+    color: red;
+}
+
+article {
+    background-color: azure;
+}
+
+nav {
+    background-color: lightgray;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: lightgray;
+    height: 100px;
+}

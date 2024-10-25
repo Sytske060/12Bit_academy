@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    background-color: rgb(227, 111, 69);
+    justify-content: space-around;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.news {
+    width: 30%; 
+    height: 150px;
+    justify-content: center;
+}
+
+.news:first-child {
+    width: 100%; /* Make the first news item take the full width */
+    text-align: center;
+}

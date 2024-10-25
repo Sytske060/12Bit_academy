@@ -1,0 +1,14 @@
+.icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tooltip-content:hover {
+    background-color: black;
+    color: white;
+}
+
+.tooltip {
+    position: sticky;
+    top: 0;
+}

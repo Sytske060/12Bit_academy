@@ -1,0 +1,54 @@
+.navbar {
+    display: flex;
+    background-color: rgb(227, 111, 69);
+    justify-content: space-around;
+}
+
+body {
+    background-color: rgb(241, 227, 199);
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.news {
+    align-items: center;
+    width: 30%; 
+    justify-content: center;
+}
+
+.news:first-child {
+    width: 120%; /* Make the first news item take the full width */
+    text-align: start;
+}
+
+
+/* titel groottes */
+.news:first-child h1 {
+    text-align: center;
+}
+
+.news:last-child h3 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+/* Orders */
+.news:nth-child(4) {
+    order: 1;
+}
+
+.news:nth-child(1) {
+    order: 2;
+}
+
+.news:nth-child(2) {
+    order: 3;
+}
+
+.news:nth-child(3) {
+    order: 3;
+}

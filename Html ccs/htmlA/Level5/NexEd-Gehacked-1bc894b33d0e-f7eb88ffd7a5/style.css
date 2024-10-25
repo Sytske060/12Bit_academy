@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  background: rgb(39, 39, 122);
+  padding: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.header img.links {
+  height: 30px;
+}
+
+.header .midden img,
+.header .rechts img {
+  width: 25px;
+  height: 25px;
+  margin-right: 1px;
+}
+
+.links,
+.midden,
+.rechts {
+  display: flex;
+}
+
+
+/*Tekst naast symbol*/
+a {
+  font-size: xx-small;
+  color: white;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+/*1:1's header*/
+.header .feedback {
+  background-color: white;
+  border-radius: 10%;
+  padding: 5px;
+  width: 60px;
+}
+
+/* Level */
+.Level {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(131, 255, 255, 0.904);
+  color: white;
+  font-size: small;
+  border-radius: 5px;
+  width: 130px;
+  height: 20px;
+}
+
+
+/*Inhoud*/
+.text {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.header .feedback {
+  color: rgb(19, 175, 25);
+}
+
+
+.containers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2%;
+}
+
+.container1 {
+  width: min-content;
+  border-style: double;
+  border-color: rgb(204, 199, 199);
+  margin-top: 20px;
+  padding: 0.5cm;
+  box-shadow: 10px 5px 15px gray;
+}
+
+table {
+  border-style: double;
+  border-color: rgb(204, 199, 199);
+  padding-right: 2cm;
+  box-shadow: 5px 5px 15px gray;
+}
+
+.groen {
+  color: white;
+  background-color: rgb(103, 197, 103);
+  border-radius: 6px;
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.growth {
+  width: 200px;
+  position: relative;
+  top: -20px;
+}
+
+/* 
+table {
+  width: 600px;
+  border: 1px solid rgb(204, 195, 195);
+  padding-right: 80px;
+  position: relative;
+  left: 9cm;
+} */
+
+table,
+th,
+td {
+  text-align: left;
+}
+
+table,
+th,
+td {
+  font-size: small;
+}
+
+th {
+  color: rgb(186, 174, 174);
+}

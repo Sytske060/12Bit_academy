@@ -1,0 +1,12 @@
+h1 {
+    font-size: xx-large;
+}
+
+textarea {
+    border-color: red;
+}
+  
+textarea:focus {
+    border-color: green;
+    outline: none !important;
+}

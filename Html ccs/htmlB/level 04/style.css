@@ -1,0 +1,9 @@
+li {
+    display: inline;
+  }
+
+body {
+    display: block;
+}
+
+input, textarea {display:block}

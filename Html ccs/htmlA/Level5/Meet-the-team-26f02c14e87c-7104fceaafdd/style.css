@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+
+.collegas {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.collega {
+    text-align: center;
+    background-color: rgb(255, 245, 221);
+    border-radius: 15px;
+    width: 30%
+} 
+
+
+
+.collega img {
+    display: inline;
+    object-fit: cover;
+    width: 20px; 
+    height: 20px; 
+}
+.collega .avatar img {  /*!!!!*/
+    display: inline;
+    object-fit: cover;
+    border-radius: 15%;
+    width: 150px;
+    height: 150px; 
+}
+
+
+.collega:nth-child(1) img {
+    object-position: left;
+    
+}
+
+.collega:nth-child(2) img {
+    object-position: center;
+}
+
+.collega:nth-child(3) img {
+    object-position: right;
+}
+
+
+
+
