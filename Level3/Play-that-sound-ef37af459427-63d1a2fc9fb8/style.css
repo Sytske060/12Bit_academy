@@ -1,0 +1,31 @@
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.maindiv {
+    display: flex;
+    justify-content: center;
+}
+
+.div1,
+.div2 {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px;
+    gap: 20px;
+}
+
+.victory,
+.ding,
+.jump,
+.fail,
+.error,
+.deurbel {
+    background-color: rgb(127, 127, 255);
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}

@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h3 {
+    width: 100%;
+    text-align: center;
+    background: rgb(164, 55, 197);
+    color: rgb(255, 255, 255);
+    padding-block: 5px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.person-info {
+    display: flex;
+    align-items: center;
+    flex-basis: calc(30%); /* 33.33% van de beschikbare ruimte minus de marges */
+    margin: 10px;
+    border: 1px solid blueviolet;
+    padding-bottom: 20px;
+}
+
+
+.container h4,
+.container p {
+    border-style: solid;
+    border-width: 1px;
+    padding: 20px;
+    align-items: center;  
+}
+
+.person-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.person-info img {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100px;
+    height: auto;
+}

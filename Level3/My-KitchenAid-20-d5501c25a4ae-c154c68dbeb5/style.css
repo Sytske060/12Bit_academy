@@ -1,0 +1,23 @@
+.kitchenAid {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 2rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+input,
+select {
+    width: 100px;
+}
+
+#output {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+}

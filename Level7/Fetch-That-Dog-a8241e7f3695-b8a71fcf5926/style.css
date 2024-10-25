@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 400px;
+    object-fit: fill;
+}
+
+button {
+    border-radius: 50px;
+    background-color: rgba(255, 207, 233, 0.864);
+    border: 0;
+    padding: 30px;
+    margin: 20px;
+}
+
+h1 {
+    background-color: rgba(255, 202, 223, 0.726);
+    padding: 30px;
+}
+
+.like img {
+   width: 30px;
+}
+
+.dislike img {
+    width: 30px;
+}
+
+
+/*Img groot in beeld wanneer click op button*/
+.hidden {
+    display: none;
+}
+
+#heart-image, #cross-image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 200px; /* Pas dit aan aan de gewenste grootte van het hart */
+}

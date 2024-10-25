@@ -1,0 +1,10 @@
+#cookie-banner {
+    width: 400px;
+    height: 80px;
+    background-color: #403d39;
+    color: #fffcf2;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

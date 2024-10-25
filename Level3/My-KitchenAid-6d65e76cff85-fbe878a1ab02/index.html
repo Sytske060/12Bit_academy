@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>My Kitchen Aid</title>
+</head>
+<body>
+
+    <div class="kitchenAid">
+        <h1>KitchenAid</h1>
+        <div class="row">
+            <label for="invoer">Invoer:</label>
+            <input type="text" id="invoer">
+        </div>
+        <div class="row">
+            <label for="startEenheid">Start Eenheid</label>
+            <select name="startEenheid" id="startEenheid">
+                <option value="ml">ml</option>
+                <option value="cl">cl</option>
+                <option value="dl">dl</option>
+                <option value="l">l</option>
+            </select>
+        </div>
+        
+        <div class="row">
+            <label for="convertEenheid">Gewenste Eenheid</label>
+            <select name="convertEenheid" id="convertEenheid">
+                <option value="ml">ml</option>
+                <option value="cl">cl</option>
+                <option value="dl">dl</option>
+                <option value="l">l</option>
+            </select>
+        </div>
+        <p id="output">-</p>
+        
+    </div>
+</body>
+</html>

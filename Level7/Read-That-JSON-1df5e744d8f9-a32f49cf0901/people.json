@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Ryan",
+        "hobby": "Putting",
+        "job": "Google"
+    },
+    {
+        "name": "Seth",
+        "hobby": "Cooking",
+        "job": "Amazon"
+    },
+    {
+        "name": "Dennis",
+        "hobby": "Presenting",
+        "job": "Netflix"
+    }
+]

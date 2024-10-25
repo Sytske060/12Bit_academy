@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Jennie Nicholes",
+        "picture": "../jennie.jpg",
+        "email": "jennie.nichols@example.com",
+        "country": "United States"
+    },
+    {
+        "name": "Brennan Carter",
+        "picture": "../brennan.jpg",
+        "email": "brennan.carter@example.com",
+        "country": "Sweden"
+    },
+    {
+        "name": "Gladys Bradley",
+        "picture": "../gladys.jpg",
+        "email": "gladys.bradley@example.com",
+        "country": "Norway"
+    },
+    {
+        "name": "Reginald Washington",
+        "picture": "../reginald.jpg",
+        "email": "reginald.washington@example.com",
+        "country": "Spain"
+    },
+    {
+        "name": "Leta Carpenter",
+        "picture": "../leta.jpg",
+        "email": "leta.carpenter@example.com",
+        "country": "Brazil"
+    },
+    {
+        "name": "Hannah Reynolds",
+        "picture": "../hannah.jpg",
+        "email": "hannah.reynolds@example.com",
+        "country": "Niger"
+    }
+]
